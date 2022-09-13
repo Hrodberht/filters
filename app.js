@@ -18,7 +18,8 @@ const displayProducts = () => {
           <footer>
             <h5 class="product-name">${title}</h5>
             <span class="product-price">$${price}</span>
-          </footer>`;
+          </footer>
+          </article>`;
     })
     .join("");
 };
